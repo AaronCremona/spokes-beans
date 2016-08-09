@@ -6,11 +6,11 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .page-header {
-  padding: 40px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .footer {
@@ -27,9 +27,14 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-body > .container {
-  padding: 60px 15px 0;
+.img-responsive {
+  margin: 0 auto;
 }
+
+#logo {
+  margin: 0px 0px 140px 0px;
+}
+
 .container .text-muted {
   margin: 20px 0;
 }
@@ -38,36 +43,3 @@ body > .container {
   padding-right: 15px;
   padding-left: 15px;
 }
-
-code {
-  font-size: 80%;
-}
-
-/* Navbar  */
-
-.navbar {
-    background: #ffffff;
-    border-color: #3f3f3f;
-    padding: 30px 10px 30px 10px;
-}
-
-/* link */
-.navbar-nav > li > a {
-  font-size: 1em;
-  font-family: Open Sans Condensed;
-  color: #000000;
-}
-
-.navbar .navbar-nav > .active > a,
-.navbar .navbar-nav > .active > a:hover,
-.navbar .navbar-nav > .active > a:focus {
-    color: #000000;
-    background-color:transparent;
-}
-.navbar .navbar-nav > .open > a,
-.navbar .navbar-nav > .open > a:hover,
-.navbar .navbar-nav > .open > a:focus {
-    color: #000000;
-    background-color:transparent;
-}
-
