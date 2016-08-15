@@ -36,8 +36,8 @@
     <div class="columns">
   <ul class="price">
     <li class="header">Basic Bean</li>
-    <li class="grey">$17</li>
-    <li>One 12oz bag of locallye roasted coffee beans.</li>
+    <li class="grey">$16/mo</li>
+    <li>One 12oz bag of locally roasted coffee beans delivered every month.</li>
     <li class="grey"><form action="/create_subscription.php" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -45,8 +45,11 @@
     data-image="images/weblogo.png"
     data-name="Basic Bean"
     data-description="One 12oz back of Phoenix roasted coffee delivered on bike every month."
-    data-amount="1700"
-    data-label="Pay With Card" >
+    data-amount="1600"
+    data-label="Pay With Card"
+    data-zip-code="true"
+    data-shipping-address="true"
+    data-bitcoin="true" >
   </script>
 </form></li>
   </ul>
@@ -54,8 +57,8 @@
 <div class="columns">
   <ul class="price">
     <li class="header">Bean Head</li>
-    <li class="grey">$30</li>
-    <li>Two 12oz bags of locally roasted coffee beans.</li>
+    <li class="grey">$30/mo</li>
+    <li>Two 12oz bags of locally roasted coffee beans. 1 bag delivered every other week!</li>
     <li class="grey"><form action="/create_subscription.php" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -64,7 +67,10 @@
     data-name="Bean Head"
     data-description="Two 12oz back of Phoenix roasted coffee delivered on bike every month."
     data-amount="3000"
-    data-label="Pay With Card" >
+    data-label="Pay With Card"
+    data-zip-code="true"
+    data-shipping-address="true"
+    data-bitcoin="true" >
   </script>
 </form></li>
   </ul>
@@ -72,8 +78,8 @@
 <div class="columns">
   <ul class="price">
     <li class="header">Family Bean</li>
-    <li class="grey">$55</li>
-    <li>Four 12oz bags of locally roasted coffee beans</li>
+    <li class="grey">$55/mo</li>
+    <li>Four 12oz bags of locally roasted coffee beans. 1 bag delievered every week to ensure you always have fresh roasted beans.</li>
     <li class="grey"><form action="/create_subscription.php" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -82,7 +88,10 @@
     data-name="Family Bean"
     data-description="Four 12oz back of Phoenix roasted coffee delivered on bike every month."
     data-amount="5500"
-    data-label="Pay With Card" >
+    data-label="Pay With Card"
+    data-zip-code="true"
+    data-shipping-address="true"
+    data-bitcoin="true" >
   </script>
 </form></li>
   </ul>
